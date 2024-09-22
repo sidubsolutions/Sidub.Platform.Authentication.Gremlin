@@ -1,0 +1,16 @@
+{
+  "metadata": [
+    // Filter...
+    {
+      "src": [
+        {
+          "files": [ "**/*.csproj" ],
+          "exclude": [ "**/bin/**", "**/obj/**" ],
+          "src": "./Authentication.Gremlin/"
+        }
+      ],
+      "dest": "./_DocFX/Authentication.Gremlin/",
+      "shouldSkipMarkup": false
+    }
+  ]
+}
